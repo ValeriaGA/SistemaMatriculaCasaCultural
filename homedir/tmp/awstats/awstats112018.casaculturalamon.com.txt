@@ -1,0 +1,529 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201811 will be lost/reset.
+# Last config file used to build this data file was /home/casacult/tmp/awstats/awstats.casaculturalamon.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2017                
+POS_TIME 2691                
+POS_VISITOR 11446               
+POS_DAY 13744               
+POS_DOMAIN 3440                
+POS_LOGIN 3776                
+POS_ROBOT 3931                
+POS_WORMS 4274                
+POS_EMAILSENDER 4405                
+POS_EMAILRECEIVER 4548                
+POS_SESSION 14157               
+POS_SIDER 14341               
+POS_FILETYPES 4683                
+POS_DOWNLOADS 4921                
+POS_OS 4969                
+POS_BROWSER 5186                
+POS_SCREENSIZE 6022                
+POS_UNKNOWNREFERER 6096                
+POS_UNKNOWNREFERERBROWSER 6515                
+POS_ORIGIN 6763                
+POS_SEREFERRALS 6902                
+POS_PAGEREFS 7046                
+POS_SEARCHWORDS 7194                
+POS_KEYWORDS 7346                
+POS_MISC 2355                
+POS_ERRORS 7405                
+POS_CLUSTER 3632                
+POS_SIDER_404 7563                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181201012637 3 312 10494622792703
+FirstTime 20181108164253
+LastTime 20181129235501
+LastUpdate 20181201013927 1 0 0 0 0
+TotalVisits 67                  
+TotalUnique 52                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 60                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 2 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 2950 3 6 9178
+1 3 4 55192 12 18 75434
+2 4 5 12835 11 13 147506
+3 6 7 64042 17 19 35684
+4 125 408 3232356 14 26 36897
+5 242 443 2403519 9 19 18462
+6 186 625 8689754 11 34 32349
+7 206 810 9905725 13 73 116387
+8 131 246 1818226 16 23 29486
+9 73 225 1741457 23 39 26374
+10 1 2 3985 10 13 16054
+11 2 2 5900 10 12 9207
+12 2 2 5900 9 11 20446
+13 25 48 298916 23 35 47980
+14 1 1 2950 8 11 16854
+15 5 6 15785 6 11 14006
+16 23 76 441935 20 32 37054
+17 2 4 7970 11 16 22488
+18 6 6 17700 14 16 27534
+19 12 13 36435 12 18 29601
+20 4 4 11800 14 25 36876
+21 7 9 77299 4 97 173370
+22 6 8 19770 20 32 51476
+23 4 10 127138 8 11 17762
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+cr 985 2857 28583475
+us 70 85 307772
+cn 10 11 72892
+ca 6 6 17700
+de 2 2 5900
+cl 1 1 2950
+es 1 1 2950
+kr 1 1 2950
+ve 1 1 2950
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+bot[\s_+:,\.\;\/\\-] 22 9401 20181129224608 19
+no_user_agent 8 102031 20181112024926 0
+spider 4 5900 20181110163910 0
+crawl 2 5900 20181111130553 0
+googlebot 2 5900 20181111135312 0
+curl 2 5900 20181110013708 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+map 67 6875174 0 0
+jpg 60 819254 0 0
+html 383 3421753 0 0
+js 1129 11983038 0 0
+gif 26 26910 0 0
+php 563 669124 0 0
+json 5 102055 0 0
+woff2 59 1099492 0 0
+css 673 4002739 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+Unknown 23 23
+win8 1 1
+linuxandroid 175 49
+winnt 2709 957
+java 15 15
+macosx5 1 1
+ios_iphone 6 5
+macosx 5 2
+win7 15 9
+winxp 1 1
+winlong 1 1
+linux 13 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 41
+firefox57.0 1 1
+firefox12.0 1 1
+chrome45.0.2454.94 1 1
+firefox50.0 1 1
+opera11.2.3.102637 1 1
+firefox3.6.13 1 1
+firefox64.0 1 1
+chrome20.0.1132.57 1 1
+safari12.0 1 0
+msie10.0 1 1
+chrome70.0.3538.77 279 100
+Unknown 19 19
+chrome41.0.2272.118 1 1
+chrome66.0.3359.181 18 18
+firefox62.0 99 24
+msie8.0 8 2
+chrome70.0.3538.110 2138 703
+firefox53.0 1 1
+firefox3.6.28 1 1
+netscape5.0 2 2
+chrome68.0.3440.106 1 1
+firefox47.0 1 1
+chrome70.0.3538.102 340 157
+firefox23.0 1 1
+chrome23.0.1271.64 1 1
+mozilla 3 3
+chrome59.0.3071.125 1 0
+chrome70.0.3538.80 1 1
+firefox63.0 5 1
+chrome57.0.2987.133 1 1
+wget 1 1
+chrome11.0.696.71 4 4
+netscape 16 16
+safari9.0 4 4
+chrome37.0.2062.124 1 1
+chrome51.0.2704.103 1 1
+chrome58.0.3029.110 1 1
+chrome21.0.1180.89 1 1
+firefox49.0 1 1
+android 1 0
+safari12.0.1 3 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20181110010149
+Mozilla/5.0_(compatible;_Dataprovider.com) 20181110092816
+python-requests/2.18.4 20181109045458
+Python/3.6_aiohttp/2.3.2 20181112035213
+Mozilla 20181111153104
+BDFetch 20181110212430
+WhatsApp/2.18.341_A 20181127081447
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+python-requests/2.18.4 20181109045458
+BDFetch 20181110212430
+Java/1.8.0_171 20181111030552
+Python/3.6_aiohttp/2.3.2 20181112035213
+WhatsApp/2.18.341_A 20181127081447
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 204 210
+From1 3 3
+From2 0 0
+From3 0 0
+From4 870 2752
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+206 2 96514
+400 2 2786
+403 196 353064
+301 7 1769
+444 16 0
+302 19 0
+404 261 450088
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 57
+/vendors/fastclick/lib/fastclick.js 1 http://www.casaculturalamon.com/
+/wp-content/plugins/wp-gdpr-compliance/readme.txt 3 -
+/vendors/jquery/dist/jquery.min.js 1 http://www.casaculturalamon.com/
+/sistemadematricula 1 -
+/vendors/nprogress/nprogress.css 14 http://www.casaculturalamon.com/login.html
+/wp-admin/setup-config.php 1 -
+/vendors/pnotify/dist/pnotify.js 14 http://www.casaculturalamon.com/login.html
+/vendors/Flot/jquery.flot.resize.js 1 http://www.casaculturalamon.com/
+/vendors/pnotify/dist/pnotify.buttons.js 17 http://www.casaculturalamon.com/login.html
+/vendors/bootstrap/dist/js/bootstrap.min.js 1 http://www.casaculturalamon.com/
+/wordpress/ 3 -
+/vendors/iCheck/icheck.min.js 1 http://www.casaculturalamon.com/
+/vendors/flot.curvedlines/curvedLines.js 1 http://www.casaculturalamon.com/
+/administrator/index.php 5 -
+/vendors/Flot/jquery.flot.stack.js 1 http://www.casaculturalamon.com/
+/vendors/iCheck/skins/flat/green.css 1 http://www.casaculturalamon.com/
+/vendors/Chart.js/dist/Chart.min.js 1 http://www.casaculturalamon.com/
+/vendors/jqvmap/dist/jquery.vmap.js 1 http://www.casaculturalamon.com/
+/build/js/custom.min.js 9 http://www.casaculturalamon.com/
+/wp-login.php 6 -
+/xmlrpc.php 3 -
+/ads.txt 2 -
+/wp/ 3 -
+/Prototipo/login.html 1 -
+/vendors/flot-spline/js/jquery.flot.spline.min.js 1 http://www.casaculturalamon.com/
+/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js 1 http://www.casaculturalamon.com/
+/admin.php 3 -
+/vendors/jqvmap/dist/maps/jquery.vmap.world.js 1 http://www.casaculturalamon.com/
+/robots.txt 50 -
+/vendors/Flot/jquery.flot.time.js 1 http://www.casaculturalamon.com/
+/vendors/Flot/jquery.flot.js 1 http://www.casaculturalamon.com/
+/vendors/jqvmap/dist/jqvmap.min.css 1 http://www.casaculturalamon.com/
+/vendors/gauge.js/dist/gauge.min.js 1 http://www.casaculturalamon.com/
+/blog/robots.txt 3 -
+/Prototipo1/login.html 2 http://www.casaculturalamon.com/Prototipo1/Controller/obtener_usuario.php
+/vendors/csi.min.js 7 http://www.casaculturalamon.com/login.html
+/vendors/nprogress/nprogress.js 1 http://www.casaculturalamon.com/
+/vendors/pnotify/dist/pnotify.nonblock.js 19 http://www.casaculturalamon.com/login.html
+/vendors/DateJS/build/date.js 1 http://www.casaculturalamon.com/
+/sitemap.xml 1 -
+/vendors/flot.orderbars/js/jquery.flot.orderBars.js 1 http://www.casaculturalamon.com/
+/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js 4 http://www.casaculturalamon.com/listarEstudiantes.html
+/build/css/custom.min.css 9 http://www.casaculturalamon.com/login.html
+/vendors/animate.css/animate.min.css 8 http://www.casaculturalamon.com/login.html
+/sistemamatricula 1 -
+/vendors/moment/min/moment.min.js 2 http://www.casaculturalamon.com/
+/vendors/bootstrap-daterangepicker/daterangepicker.css 1 http://www.casaculturalamon.com/
+/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css 1 http://www.casaculturalamon.com/
+/wp-admin/install.php 2 -
+/blog/ 3 -
+/vendors/Flot/jquery.flot.pie.js 1 http://www.casaculturalamon.com/
+/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js 4 http://www.casaculturalamon.com/
+/vendors/skycons/skycons.js 1 http://www.casaculturalamon.com/
+/vendors/font-awesome/css/font-awesome.min.css 16 http://www.casaculturalamon.com/login.html
+/Prototipo1/comprobantes/1537985654%20=%202018-09-26%2018:14:14horarios%20becas.png 3 http://casaculturalamon.com/Prototipo1/cambiarEstadoMatricula.html
+/vendors/bootstrap/dist/css/bootstrap.min.css 16 http://www.casaculturalamon.com/login.html
+/vendors/bootstrap-daterangepicker/daterangepicker.js 2 http://www.casaculturalamon.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 60
+201.191.94.242 826 2376 24790355 20181129235501
+201.191.42.166 99 278 2142722 20181112092134
+190.113.110.15 23 91 986422 20181127093725
+201.206.80.145 19 63 377430 20181128164015
+34.235.101.212 18 18 53100 20181111030552
+181.194.26.84 16 38 271331 20181127134738
+34.198.6.237 12 12 35400 20181110181259
+34.222.120.130 4 4 11800 20181111131142
+158.69.116.60 3 3 8850 20181110092817
+183.66.230.22 3 3 54157 20181112012742
+47.93.188.98 2 2 2950 20181109230318
+35.164.157.234 2 2 5900 20181109201028
+34.218.77.84 2 2 5900 20181109163153
+18.237.167.88 2 2 5900 20181110082121
+34.215.176.57 2 2 5900 20181111072430
+104.192.74.45 2 2 5900 20181111153104
+50.112.233.120 2 2 5900 20181110041735
+34.215.122.156 2 2 5900 20181110191644
+104.130.136.89 2 2 5900 20181110121942
+111.231.218.16 2 2 5900 20181109185016
+104.130.124.209 2 2 5900 20181110121743
+52.27.218.77 2 2 5900 20181110133058
+211.176.125.70 1 1 2950 20181110143418
+34.241.50.246 1 1 2950 20181111082917
+167.114.233.118 1 1 2950 20181109103501
+190.113.103.117 0 1 1035 
+104.238.248.15 1 1 2950 20181109031814
+201.192.218.209 1 1 2950 20181109151156
+38.130.161.75 1 1 2950 20181108182816
+66.102.8.40 1 1 2950 20181109152819
+52.87.10.90 1 1 2950 20181109193625
+65.154.226.109 1 4 6055 20181110094455
+122.49.28.2 1 1 2950 20181110195402
+186.10.30.195 1 1 2950 20181109201904
+66.249.88.17 1 4 12722 20181128163110
+137.226.113.34 1 1 2950 20181110043739
+158.69.84.29 1 1 2950 20181109045458
+138.68.254.101 1 1 2950 20181111001301
+52.213.22.99 1 1 48257 20181112035213
+139.99.176.55 1 1 0 20181111080825
+199.30.228.138 1 1 2950 20181109034818
+186.32.218.124 0 2 2070 
+198.74.51.71 1 1 2950 20181109170532
+158.106.67.188 1 1 2950 20181110212430
+180.163.220.5 1 1 2950 20181110203023
+201.191.198.95 1 1 2950 20181108164253
+70.42.131.170 0 3 3105 
+193.153.175.143 1 1 2950 20181110045508
+27.115.124.66 0 1 1035 
+66.249.88.11 0 4 22887 
+34.211.155.119 1 1 2950 20181109151025
+186.26.116.134 0 1 1035 
+137.226.113.26 1 1 2950 20181110010149
+38.130.180.93 1 1 2950 20181109071639
+66.249.88.14 0 2 20046 
+218.5.22.228 1 1 2950 20181109192920
+200.47.54.103 1 1 2950 20181110013708
+18.206.102.221 1 1 2950 20181109194609
+186.159.218.181 0 5 5175 
+104.251.219.129 1 1 2950 20181109170532
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20181108 2 2 5900 2
+20181109 35 35 100300 21
+20181110 38 38 112100 23
+20181111 23 24 120514 11
+20181112 94 272 2162972 3
+20181113 0 2 2070 0
+20181114 0 1 1035 0
+20181115 0 3 3105 0
+20181121 0 3 3105 0
+20181123 0 1 1035 0
+20181125 0 1 1035 0
+20181126 0 2 2070 0
+20181127 863 2499 25925990 4
+20181128 20 73 433085 2
+20181129 2 8 124188 1
+20181130 0 1 1035 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 59
+30mn-1h 2
+30s-2mn 3
+5mn-15mn 1
+1h+ 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 78
+/Prototipo1/Controller/obtener_tipo_usuario.php 154 767 0 1
+/ 95 410271 59 58
+/Prototipo1/Controller/obtener_matriculas_x_periodo.php 82 6286 0 0
+/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 58 1027596 1 0
+/Prototipo1/Controller/obtener_todos_cursos_x_periodo.php 56 9783 0 0
+/Prototipo1/menuAdmin.html 53 218229 0 0
+/vendors/bootstrap/dist/css/bootstrap.min.css.map 52 5280860 0 0
+/SistemaMatricula/Controller/obtener_tipo_usuario.php 52 262 0 3
+/Prototipo1/Controller/obtener_ListaPeriodos.php 46 38226 0 0
+/Prototipo1/listarEstudiantes.html 40 582498 0 0
+/Prototipo1/Controller/obtener_periodos.php 25 7775 0 0
+/SistemaMatricula/ 18 76128 5 2
+/login.html 17 71332 1 1
+/Prototipo1/listarCursos.html 17 194004 0 0
+/Prototipo1/registroPeriodo.php 16 472624 0 0
+/Prototipo1/matricular.html 16 286880 0 0
+/Prototipo1/registroAdministrador.html 16 176640 0 0
+/SistemaMatricula/Controller/obtener_matriculas_x_periodo.php 15 1287 0 0
+/SistemaMatricula/registroAdministrador.html 15 165600 0 0
+/Prototipo1/Controller/obtener_cursos.php 14 2744 0 0
+/SistemaMatricula/login.html 13 55464 0 0
+/Controller/obtener_todos_cursos_x_periodo.php 13 1302 0 0
+/SistemaMatricula/Controller/obtener_todos_cursos_x_periodo.php 13 3287 0 0
+/SistemaMatricula/menuAdmin.html 13 54253 0 0
+/vendors/parsleyjs/dist/parsley.min.js.map 12 702456 0 0
+/SistemaMatricula/listarEstudiantes.html 4 58348 0 0
+/Controller/obtener_usuariosMatricula.php 1 291 0 0
+/vendors/pdfmake/build/pdfmake.min.js.map 3 891858 0 0
+/Prototipo1/enviarInformacion.html 8 206176 0 0
+/Prototipo1/cambiarEstadoMatricula.html 4 59364 0 0
+/SistemaMatricula/Controller/obtener_usuariosMatricula.php 2 710 0 0
+/Controller/obtener_ListaPeriodos.php 1 831 0 0
+/Prototipo1/Controller/obtener_administradores.php 3 2289 0 0
+/Prototipo1/editarEstudiante.html 6 107316 0 0
+/cambiarEstadoMatricula.html 1 14841 0 0
+/Prototipo1/registroCurso.html 2 13482 0 0
+/SistemaMatricula/Controller/obtener_periodos.php 6 1866 0 0
+/Prototipo1/Controller/obtener_usuariosMatricula.php 4 1292 0 0
+/SistemaMatricula/menuAsistenteGestor.html 2 6697 0 0
+/SistemaMatricula/registroProfesor.html 2 59084 0 0
+/Prototipo1/menuAsistenteGestor.html 1 3310 0 0
+/Controller/obtener_cursos.php 1 112 0 0
+/SistemaMatricula/Controller/obtener_cursos.php 2 392 0 0
+/Prototipo1/listaDeCurso.php 6 40236 0 0
+/Prototipo1/Controller/obtener_usuariosMat.php 5 521 0 0
+/Controller/obtener_usuariosMat.php 3 338 0 0
+/Prototipo1/login.html 10 41960 0 0
+/vendors/font-awesome/fonts/fontawesome-webfont.woff2 1 71896 0 0
+/SistemaMatricula/cambiarEstadoMatricula.html 2 29682 0 0
+/SistemaMatricula/Controller/obtener_ListaPeriodos.php 6 4986 0 0
+/SistemaMatricula/Controller/obtener_usuariosMat.php 2 192 0 1
+/Prototipo1/registroProfesor.html 4 118168 0 0
+/Controller/obtener_periodos.php 2 622 0 0
+/Prototipo1/js/CR.json 3 61233 0 0
+/SistemaMatricula/registroPeriodo.php 1 29539 0 0
+/Controller/obtener_matriculas_x_periodo.php 2 4 0 0
+/SistemaMatricula/menuAsistenteEditor.html 1 2393 0 0
+/SistemaMatricula/Controller/obtener_usuario.php 7 310 0 0
+/SistemaMatricula/listaDeCurso.php 5 33530 0 0
+/SistemaMatricula/js/CR.json 2 40822 0 0
+/Prototipo1/eliminarAdministrador.html 3 38088 0 0
+/SistemaMatricula/enviarInformacion.html 6 154632 0 0
+/Controller/obtener_usuario.php 4 620 0 0
+/SistemaMatricula/matricular.html 1 17930 0 0
+/Prototipo1/Controller/matricular.php 1 124 0 0
+/SistemaMatricula/registroEstudiante.html 2 19550 0 0
+/Prototipo1/ 1 48257 1 0
+/Prototipo1/Controller/obtener_usuario.php 5 775 0 0
+/listarCursos.html 1 11412 0 0
+/Prototipo1/Controller/obtener_usuario_ced.php 1 201 0 0
+/matricular.html 1 17930 0 0
+/SistemaMatricula/recuperacion.php 1 4970 0 1
+/SistemaMatricula/listarCursos.html 4 45648 0 0
+/enviarInformacion.html 1 25772 0 0
+/listarEstudiantes.html 1 13605 0 0
+/menuAsistenteGestor.html 1 3310 0 0
+/SistemaMatricula/modificarCursoMatricula.html 1 13499 0 0
+/Controller/obtener_tipo_usuario.php 6 30 0 0
+END_SIDER

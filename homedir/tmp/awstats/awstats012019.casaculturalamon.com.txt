@@ -1,0 +1,270 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201901 will be lost/reset.
+# Last config file used to build this data file was /home/casacult/tmp/awstats/awstats.casaculturalamon.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2017                
+POS_TIME 2675                
+POS_VISITOR 6272                
+POS_DAY 6458                
+POS_DOMAIN 3307                
+POS_LOGIN 3557                
+POS_ROBOT 3712                
+POS_WORMS 3844                
+POS_EMAILSENDER 3975                
+POS_EMAILRECEIVER 4118                
+POS_SESSION 6597                
+POS_SIDER 6744                
+POS_FILETYPES 4253                
+POS_DOWNLOADS 4430                
+POS_OS 4478                
+POS_BROWSER 4596                
+POS_SCREENSIZE 4728                
+POS_UNKNOWNREFERER 4802                
+POS_UNKNOWNREFERERBROWSER 4889                
+POS_ORIGIN 4971                
+POS_SEREFERRALS 5102                
+POS_PAGEREFS 5246                
+POS_SEARCHWORDS 5394                
+POS_KEYWORDS 5546                
+POS_MISC 2339                
+POS_ERRORS 5605                
+POS_CLUSTER 3413                
+POS_SIDER_404 5735                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190201054857 1 0 8011333401018
+FirstTime 0
+LastTime 20190131144144
+LastUpdate 20190201055549 1 0 0 0 0
+TotalVisits 1                   
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 10 11 20552
+1 0 0 0 13 14 26186
+2 0 0 0 16 16 28170
+3 0 3 3105 16 19 33592
+4 0 0 0 14 16 29836
+5 0 0 0 11 11 20552
+6 0 0 0 20 20 37560
+7 0 0 0 11 11 20552
+8 0 0 0 27 28 52372
+9 0 0 0 18 24 35364
+10 0 0 0 16 17 31820
+11 0 0 0 16 16 28170
+12 0 0 0 13 13 20658
+13 0 0 0 13 13 24308
+14 9 31 260484 20 22 33845
+15 0 0 0 22 23 31820
+16 0 0 0 9 12 22218
+17 0 0 0 11 12 20552
+18 0 0 0 13 13 22430
+19 0 1 1035 26 28 48722
+20 0 0 0 12 12 22430
+21 0 0 0 10 10 18674
+22 0 0 0 17 17 31502
+23 0 0 0 12 12 20658
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+cr 9 32 261519
+nl 0 2 2070
+ie 0 1 1035
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+gif 5 5175 0 0
+css 5 45488 0 0
+woff2 1 18028 0 0
+html 4 26820 0 0
+js 15 152279 0 0
+php 4 612 0 0
+jpg 1 16222 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+linuxandroid 32 9
+linuxubuntu 1 0
+linux 1 0
+win7 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+chrome69.0.3497.81 1 0
+msie11.0 1 0
+chrome71.0.3578.99 32 9
+chrome72.0.3607.0 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1 1
+From1 0 0
+From2 0 0
+From3 0 0
+From4 8 34
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 1 0
+404 31 53160
+444 7 0
+403 343 629130
+301 1 253
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 12
+/SiatemaMatricula 1 -
+/wordpress/wp-login.php 1 -
+/images/ 1 -
+/blog/wp-login.php 1 -
+/robots.txt 17 -
+/ 2 -
+/forum/ 3 -
+/forum/viewtopic.php 1 -
+/dev/wp-login.php 1 -
+/wp/wp-login.php 1 -
+/.git/HEAD 1 -
+/test/wp-login.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+181.194.27.215 9 31 260484 20190131144144
+130.161.3.203 0 2 2070 
+31.13.127.16 0 1 1035 
+181.194.10.241 0 1 1035 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20190119 0 1 1035 0
+20190121 0 2 2070 0
+20190129 0 1 1035 0
+20190131 9 31 260484 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/SistemaMatricula/menuAsistenteGestor.html 1 3387 0 0
+/SistemaMatricula/Controller/obtener_usuario.php 1 155 0 0
+/SistemaMatricula/login.html 1 4296 0 0
+/SistemaMatricula/Controller/obtener_tipo_usuario.php 1 6 0 0
+/SistemaMatricula/ 1 4296 1 0
+/SistemaMatricula/Controller/obtener_usuariosMatricula.php 1 355 0 0
+/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 1 18028 0 1
+/SistemaMatricula/cambiarEstadoMatricula.html 1 14841 0 0
+/SistemaMatricula/Controller/obtener_usuariosMat.php 1 96 0 0
+END_SIDER

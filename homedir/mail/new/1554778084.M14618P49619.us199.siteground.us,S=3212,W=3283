@@ -1,0 +1,71 @@
+Return-Path: <>
+Delivered-To: casacult@us199.siteground.us
+Received: from us199.siteground.us
+	by us199.siteground.us with LMTP
+	id zTdEO+MHrFzTwQAAlGKOyA
+	(envelope-from <>)
+	for <casacult@us199.siteground.us>; Mon, 08 Apr 2019 21:48:03 -0500
+Return-path: <>
+Envelope-to: casacult@us199.siteground.us
+Delivery-date: Mon, 08 Apr 2019 21:48:04 -0500
+Received: from mailnull by us199.siteground.us with local (Exim 4.89_34-9f6032f-XX)
+	id 1hDgnr-000Cu8-UE
+	for casacult@us199.siteground.us; Mon, 08 Apr 2019 21:48:03 -0500
+X-Failed-Recipients: mloria@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@us199.siteground.us>
+To: casacult@us199.siteground.us
+Content-Type: multipart/report; report-type=delivery-status; boundary=1554778083-eximdsn-2145696956
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1hDgnr-000Cu8-UE@us199.siteground.us>
+Date: Mon, 08 Apr 2019 21:48:03 -0500
+
+--1554778083-eximdsn-2145696956
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  mloria@gmail.com
+    host outbound.mailspamprotection.com [184.154.58.226]
+    SMTP error from remote mail server after end of data:
+    550 Subject contains invalid characters.
+
+--1554778083-eximdsn-2145696956
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; us199.siteground.us
+
+Action: failed
+Final-Recipient: rfc822;mloria@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; outbound.mailspamprotection.com
+Diagnostic-Code: smtp; 550 Subject contains invalid characters.
+
+--1554778083-eximdsn-2145696956
+Content-type: message/rfc822
+
+Return-path: <casacult@us199.siteground.us>
+Received: from [127.0.0.1] (port=52784 helo=us199.siteground.us)
+	by us199.siteground.us with smtp (Exim 4.89_34-9f6032f-XX)
+	(envelope-from <casacult@us199.siteground.us>)
+	id 1hDgnr-000Csl-3S
+	for mloria@gmail.com; Mon, 08 Apr 2019 21:48:03 -0500
+Date: Mon, 08 Apr 2019 21:48:03 -0500
+X-SG-User: casacult
+X-SG-Opt:  SCRIPT_FILENAME=/home/casacult/public_html/SistemaMatricula/Controller/matricular.php  REQUEST_URI=/SistemaMatricula/Controller/matricular.php  PWD=/home/casacult/public_html/SistemaMatricula/Controller  REMOTE_ADDR=186.177.150.13 
+To: mloria@gmail.com
+Subject: Solicitud de matrícula en el curso Dibujo Avanzado
+X-PHP-Originating-Script: 798:enviarCorreo.php
+From:ccamon@gmail.com
+SG-Abuse: script, USERNAME=casacult SCRIPT_FILENAME=/home/casacult/public_html/SistemaMatricula/Controller/matricular.php  REQUEST_URI=/SistemaMatricula/Controller/matricular.php  PWD=/home/casacult/public_html/SistemaMatricula/Controller  REMOTE_ADDR=186.177.150.13
+
+Estimado(a) Mary de parte de Casa Cultural Amón le agradecemos su matrícula en el curso Dibujo Avanzado, el cual será impartido en el horario: Martes 15:00 - 18:00
+Por favor, espere una notificación por este medio en cuanto se acepte su matrícula. 
+Ante cualquier consulta no dude en contactarnos por medio del correo electrónico ccamon@gmail.com o al teléfono 25509449.
+Saludos!
+
+--1554778083-eximdsn-2145696956--

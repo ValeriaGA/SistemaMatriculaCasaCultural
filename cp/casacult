@@ -1,0 +1,34 @@
+# cPanel -- If you edit this file directly you must run /usr/local/cpanel/scripts/updateuserdomains afterwards to rebuild the system caches.
+# If you edit MAX_EMAIL_PER_HOUR or MAX_EMAIL_PER_HOUR-[domain] you must run /usr/local/cpanel/scripts/updateuserdomains'
+
+BACKUP=1
+BWLIMIT=0
+CONTACTEMAIL=bsjc96@gmail.com
+CONTACTEMAIL2=
+DEMO=0
+DISK_BLOCK_LIMIT=20971520
+DNS=casaculturalamon.com
+FEATURELIST=default
+HASCGI=1
+HASDKIM=1
+HASSPF=0
+IP=109.73.236.180
+LEGACY_BACKUP=0
+LOCALE=en
+MAILBOX_FORMAT=maildir
+MAXADDON=unlimited
+MAXFTP=unlimited
+MAXLST=0
+MAXPARK=unlimited
+MAXPOP=unlimited
+MAXSQL=unlimited
+MAXSUB=unlimited
+MAX_DEFER_FAIL_PERCENTAGE=unlimited
+MAX_EMAIL_PER_HOUR=unlimited
+MTIME=1541716023
+MXCHECK-casaculturalamon.com=0
+OWNER=root
+PLAN=GrowBig
+RS=Crystal
+STARTDATE=1541715648
+USER=casacult

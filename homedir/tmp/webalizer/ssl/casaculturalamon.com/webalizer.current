@@ -1,0 +1,359 @@
+# Webalizer V2.23-05 Incremental Data - 05/16/2019 13:31:18
+2019 5 16 13 31 18
+72 70 54 19 1 14 6427296 44 44 0
+5 1 14 1 16
+4 4 20381 4 3 3
+4 4 20381 4 3 3
+0 0 0 0 0 0
+3 3 13597 3 2 2
+1 1 6784 1 1 1
+3 3 20352 3 3 3
+6 6 1980365 6 4 4
+7 7 3926781 7 4 4
+8 8 33298 8 6 6
+2 2 13568 2 2 2
+20 20 312415 6 6 6
+2 2 13568 2 2 2
+2 2 13568 2 2 2
+4 3 22124 4 3 3
+1 1 6784 1 1 1
+5 4 23330 5 2 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 6784 1
+1 1 6784 1
+3 3 11109 2
+2 2 13568 2
+16 16 285279 2
+2 2 11080 2
+0 0 0 0
+1 1 6784 1
+0 0 0 0
+7 6 27152 3
+5 5 27165 4
+4 4 27136 4
+5 5 33920 5
+2 2 16559 2
+0 0 0 0
+4 4 20352 4
+6 6 40704 6
+2 1 8556 1
+2 2 1953229 0
+0 0 0 0
+3 3 1957525 1
+3 3 1960013 1
+1 1 6784 1
+2 2 6813 1
+0
+0
+0
+70
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/vendors/jquery/dist/jquery.min.js
+0 1 7814716426037852777 29822 0 0
+/vendors/nprogress/nprogress.css
+0 1 0 551 0 0
+/vendors/bootstrap/dist/css/bootstrap.min.css
+0 1 0 19744 0 0
+/SistemaMatricula/recuperacion.php
+0 1 0 4970 0 0
+/vendors/bootstrap/dist/js/bootstrap.min.js
+0 1 0 9765 0 0
+/build/css/custom.min.css
+0 1 0 14573 0 0
+/vendors/fastclick/lib/fastclick.js
+0 1 0 7608 0 0
+/SistemaMatricula/images/ccamon.png
+0 1 0 120521 0 0
+/SistemaMatricula/registroEstudiante.html
+0 1 1851876707 9775 1 0
+/vendors/nprogress/nprogress.js
+0 1 0 3567 0 0
+/vendors/validator/validator.js
+0 1 0 4247 0 0
+/vendors/font-awesome/css/font-awesome.min.css
+0 1 0 6666 0 0
+/
+0 40 0 264576 40 3
+/SistemaMatricula/images/Manual Cursos II P 2019.png
+0 3 0 5859600 0 0
+/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js
+0 1 0 21053 0 0
+/SistemaMatricula/registroSistema.html
+0 3 0 12888 3 0
+/vendors/parsleyjs/dist/parsley.min.js
+0 1 0 11495 0 0
+/robots.txt
+0 9 0 261 0 0
+/build/js/custom.min.js
+0 1 0 22070 0 0
+# End Of Table - urls
+# -sites- (monthly)
+209.17.97.74
+0 1 1 6784 1 1556813527
+/
+ip-54-36-148-238.a.ahrefs.com
+0 1 1 29 0 0
+-
+planetlab5.net.in.tum.de
+0 1 1 0 1 1557328997
+/
+ip-54-36-149-3.a.ahrefs.com
+0 1 1 6784 1 1557268853
+/
+ip-54-36-148-21.a.ahrefs.com
+0 1 1 4296 1 1557379568
+/SistemaMatricula/registroSistema.html
+ip-54-36-149-16.a.ahrefs.com
+0 1 1 6784 1 1556789233
+/
+ec2-54-190-130-250.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557205983
+/
+209.17.96.58.cloudsystemnetworks.com
+0 1 1 6784 1 1557836106
+/
+ip-54-36-148-186.a.ahrefs.com
+0 1 1 9775 1 1558013478
+/SistemaMatricula/registroEstudiante.html
+ip-54-36-148-88.a.ahrefs.com
+0 1 1 6784 1 1556943920
+/
+209.17.96.50.cloudsystemnetworks.com
+0 1 1 6784 1 1557798082
+/
+ec2-54-202-54-82.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557311387
+/
+ec2-34-210-75-200.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557921995
+/
+ec2-52-11-165-228.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557493075
+/
+researchscan19.comsys.rwth-aachen.de
+0 2 2 13568 2 1557545146
+/
+60.191.38.77
+0 2 2 13568 2 1557680284
+/
+ip-54-36-148-134.a.ahrefs.com
+0 1 1 1953200 0 0
+-
+ip-54-36-148-178.a.ahrefs.com
+0 2 2 6813 1 1556753611
+/
+ec2-34-212-34-202.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557830212
+/
+ip-54-36-149-34.a.ahrefs.com
+0 1 1 6784 1 1557509646
+/
+ip-54-36-149-0.a.ahrefs.com
+0 1 1 6784 1 1557569667
+/
+ec2-52-89-210-81.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557055916
+/
+jobqueue-listener.jobqueue.netcraft.com-u21274c12703511e9a4889223838d6ab1u-digitalocean
+0 1 1 6784 1 1557158964
+/
+209.17.96.10.cloudsystemnetworks.com
+0 1 1 6784 1 1557282744
+/
+ip-54-36-148-114.a.ahrefs.com
+0 1 1 1953200 0 0
+-
+ec2-52-26-240-129.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557997728
+/
+ec2-52-27-68-94.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557763498
+/
+ip-54-36-149-7.a.ahrefs.com
+0 1 1 29 0 0
+-
+209.17.96.242
+0 2 2 13568 2 1557436524
+/
+ip-54-36-148-73.a.ahrefs.com
+0 1 1 29 0 0
+-
+researchscan26.comsys.rwth-aachen.de
+0 14 14 278466 1 1557547887
+/
+ec2-54-202-177-1.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557659758
+/
+ec2-54-190-198-134.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557136593
+/
+ip-54-36-148-248.a.ahrefs.com
+0 1 1 29 0 0
+-
+ip-54-36-148-195.a.ahrefs.com
+0 1 1 29 0 0
+-
+ec2-34-220-132-82.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557570532
+/
+ec2-34-222-96-48.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557409433
+/
+ec2-52-43-90-26.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557417167
+/
+ip-54-36-148-116.a.ahrefs.com
+0 1 1 29 0 0
+-
+crawl-66-249-69-162.googlebot.com
+0 1 0 1772 0 0
+-
+crawl-66-249-69-100.googlebot.com
+0 1 0 1772 0 0
+-
+ip-54-36-149-76.a.ahrefs.com
+0 1 1 1953200 0 0
+-
+ip-54-36-148-10.a.ahrefs.com
+0 1 1 4296 1 1557433172
+/SistemaMatricula/registroSistema.html
+ec2-34-216-196-20.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557761638
+/
+jobqueue-listener.jobqueue.netcraft.com-u205be87e703511e9a4889223838d6ab1u-digitalocean
+0 1 1 6784 1 1557158838
+/
+ip-54-36-149-25.a.ahrefs.com
+0 2 2 58 0 0
+-
+ip-54-36-149-89.a.ahrefs.com
+0 1 1 4970 0 0
+-
+macgregor.onyphe.io
+0 1 1 6784 1 1557317027
+/
+ip-54-36-148-121.a.ahrefs.com
+0 1 1 4296 1 1557369890
+/SistemaMatricula/registroSistema.html
+ip-109-73-236-180.siteground.com
+0 1 1 6784 1 1557241696
+/
+ec2-35-162-188-42.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1556709689
+/
+ec2-18-237-195-102.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1556797092
+/
+researchscan20.comsys.rwth-aachen.de
+0 1 1 6784 1 1557546211
+/
+ec2-52-13-59-86.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1556985707
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+ip-54-36-148-186.a.ahrefs.com
+0 1 1 9775 1 1558013478
+/SistemaMatricula/registroEstudiante.html
+ec2-52-26-240-129.us-west-2.compute.amazonaws.com
+0 1 1 6784 1 1557997728
+/
+ip-54-36-148-73.a.ahrefs.com
+0 1 1 29 0 0
+-
+crawl-66-249-69-162.googlebot.com
+0 1 0 1772 0 0
+-
+ip-54-36-149-89.a.ahrefs.com
+0 1 1 4970 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 72
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+0 6
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+0 15
+Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
+0 23
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 2
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t12sns; +http://researchscan.comsys.rwth-aachen.de)
+0 1
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t13rl; +http://researchscan.comsys.rwth-aachen.de)
+0 1
+Go-http-client/2.0
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+0 2
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 1
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t12ca; +http://researchscan.comsys.rwth-aachen.de)
+0 1
+curl/7.52.1
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0
+0 14
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

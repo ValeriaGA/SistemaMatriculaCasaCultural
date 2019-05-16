@@ -1,0 +1,37 @@
+; cPanel first:11.66.0.24 (update_time):2018111006 Cpanel::ZoneFile::VERSION:1.3 hostname:us199.siteground.us latest:11.66.0.24
+; Zone file for casaculturalamon.com
+$TTL 14400
+casaculturalamon.com.	86400	IN	SOA	ns1.us199.siteground.us.	dnsadmin.us199.siteground.us.	(
+						2018111012 ;Serial Number
+						3600 ;refresh
+						900 ;retry
+						1209600 ;expire
+						86400	)
+
+casaculturalamon.com.	86400	IN	NS	ns1.us199.siteground.us.
+casaculturalamon.com.	86400	IN	NS	ns2.us199.siteground.us.
+
+
+casaculturalamon.com.	14400	IN	A	109.73.236.180
+
+
+mail	14400	IN	CNAME	casaculturalamon.com.
+www	14400	IN	CNAME	casaculturalamon.com.
+ftp	14400	IN	A	109.73.236.180
+
+casaculturalamon.com.	14400	IN	TXT	"v=spf1 +a +mx +a:ns1.us199.siteground.us include:_spf.mailspamprotection.com ~all"
+cpanel	14400	IN	A	109.73.236.180
+webdisk	14400	IN	A	109.73.236.180
+cpcalendars	14400	IN	A	109.73.236.180
+cpcontacts	14400	IN	A	109.73.236.180
+whm	14400	IN	A	109.73.236.180
+webmail	14400	IN	A	109.73.236.180
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuTuNM/GwKlpD9FLCql5gVp7uxfKQ4Zl+VTN8K5HuqrddclkL5CC1wOYoIOjKsVqaJI5GdztcVV8jYtkYapc6fTcJo7T91sQMTPf3IoGv61lkXXiL1L7VNJkNLfvmh2q1QihD8sBnPbx67hSaW910SsYYmJ4C0DnZIcTFxKOI6oUpp2N1I5x86JBL/q3BmTPzW" sZ4s1zl5+L99+Lwg4ByOfGro1eWOUrLOoD+nWVcuIvuKohqFxBN/9e20CUvucBNsM5qfIFX7PeJYnLaKpfM5f0n2TmRHwrhdU6cuRsm5S16mbSqHq88AruNC1IhWzLo35dK2LWtCvqczSUnqiXJVQIDAQAB\;
+_domainkey	14400	IN	TXT	"v=DKIM1; o=~"
+casaculturalamon.com.	3600	IN	MX	10	mx10.mailspamprotection.com.
+casaculturalamon.com.	3600	IN	MX	20	mx20.mailspamprotection.com.
+casaculturalamon.com.	3600	IN	MX	30	mx30.mailspamprotection.com.
+
+dkim._domainkey	TXT		"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC39r31hg5wMISKnyb33QLEZ5mcxWfer5puGMajuoZdFE9G4ett6DUPJSjLM1X1MBIVAbUSfXhjKsfAPx6zFqvt/HCVimm9LswmLqXKZyGv6/HQ6FngrijNRizkVSiDkE82jA7i6Yy5blmph2ypNj5WrvXwsdRnVjpeWpjebrVvOwIDAQAB; s=email"
+_acme-challenge	1	IN TXT	 "F3TCZ70gKR0L9b4wA80K9fi999I1TQlxGhprmz171cc"
+_acme-challenge.www	1	IN TXT	 "s9ndXU74RZj-hsr20aE--ZQEK-LD2Nf4BbH0OSnHsOc"

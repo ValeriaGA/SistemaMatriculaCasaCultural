@@ -33,7 +33,7 @@
                 <div class="page-title">
                     <div class="title_left">
                         <!--<h3>Hola <span id="usuario"></span> | Editar Estudiante</h3>-->
-                        <h3>Editar Estudiante</h3>
+                        <h3>Editar mi perfil</h3>
                     </div>
 
 
@@ -61,9 +61,6 @@
 
                                             <!--</div>-->
 
-                                            <button id="boton_obtener" value="Obtener" class=" col-md-1 col-sm-1 col-xs-2 btn btn-success btn">
-                                                Obtener
-                                            </button>
 
 
                                         </div>
@@ -265,11 +262,12 @@
                 return false;
             }
         });
-
+ 
         $('#boton_obtener').bind('click', function (event) {
 
             event.preventDefault();
-
+          
+       
             $.ajax({
                 type: 'POST',
                 url: 'Controller/obtener_usuario_ced.php',
@@ -309,6 +307,8 @@
         });
     });
 
+    
+    
     function clear() {
         $(':input[type="text"], :input[type="email"]').prop('disabled', true).val("");
         $("#cedula").prop("readonly", false).prop('disabled', false);
@@ -355,6 +355,7 @@
             }
         });
     });
+    
 
     function fun(){
         $.ajax({
@@ -373,9 +374,72 @@
         		  }
             });	
     }
+    
+    
 
 </script>
 
+<script>
+    $.ajax({
+            type: 'POST',
+            url: 'Controller/obtener_sesion.php',
+            data: $('form').serialize(),
+            dataType: "json",
+            success: function (result) {
+                let userID = result;
+                if(result !== 0) {
+
+                     $('#cedula').val(userID); 
+                    document.getElementById("cedula").value = userID;
+                    console.log(userID);
+                    $.ajax({
+                        type: 'POST',
+                        url: 'Controller/obtener_usuario_ced.php',
+                        data: $('form').serialize(),
+                        dataType: "json",
+                        success: function (data) {
+                            let user = data[0];
+                            if(data !== 0) {
+                                var id = document.getElementById("cedula").value;
+                                console.log(id + " id");
+                                $(':input[type="text"], :input[type="email"]').prop('disabled', false);
+                                $('#nacimiento').prop('disabled', true);
+                                $("#cedula").prop("readonly", true);
+
+                                $('input[type="text"], input[type="text"]').keyup(function () {
+                                    $(':input[type="submit"]').prop('disabled', false);
+
+                                });
+
+                                $('input[type="text"], input[type="email"]').keydown(function () {
+                                    $(':input[type="submit"]').prop('disabled', false);
+
+                                });
+
+                                $('#nombre').val(user.nombre);
+                                $('#usuario').val(user.nombre);
+                                $('#apellido1').val(user.primer_apellido);
+                                $('#apellido2').val(user.segundo_apellido);
+                                $('#nacionalidad').val(user.nacionalidad);
+                                $('#email').val(user.correo);
+                                $('#nacimiento').val(user.fecha_nacimiento);
+                                $('#telefono').val(user.telefono);
+                                $('#telefono2').val(user.telefono2);
+                            }
+                        }
+                    });
+                    
+                }
+            }
+        });
+    
+    
+    
+    
+    
+</script>
+
+<!--
 <script>
 var queryString = decodeURIComponent(window.location.search);
 //Obtenemos la cédula cuando es redirigida de la búsqueda de usuarios
@@ -383,6 +447,7 @@ queryString = queryString.substring(8);
 //Cargamos
 document.getElementById("cedula").value = queryString;
 </script>
+-->
 <!-- PNotify -->
 <script src="../vendors/pnotify/dist/pnotify.js"></script>
 <script src="../vendors/pnotify/dist/pnotify.buttons.js"></script>

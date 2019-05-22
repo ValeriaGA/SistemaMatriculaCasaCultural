@@ -7,6 +7,7 @@ if ($_POST) {
     //datos tomados del formulario HTML
 
     $cedula = $_POST['cedula'];
+   
 
     $resultado = obtener_usuario($cedula);
 

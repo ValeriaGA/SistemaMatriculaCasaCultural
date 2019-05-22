@@ -27,13 +27,13 @@ function obtener_usuario($cedula, $clave)
             actTipoUsuario($fila2[0]);
             if($fila2[1] == "activo"){ //Cambia la dirección según el usuario
                 if($fila2[0] == "Editor"){
-                    header("Location: ../registroProfesor.html");
+                    header("Location: ../listarEstudiantes.html");
                     die();
                 }else if($fila2[0] == "Gestor"){
-                    header("Location: ../cambiarEstadoMatricula.html");
+                    header("Location: ../listarEstudiantes.html");
                     die();
                 }else if($fila2[0] == "Super"){
-                    header("Location: ../registroAdministrador.html");
+                    header("Location: ../listarEstudiantes.html");
                     die();
                 }
             }else{ // Usuario Inactivo 

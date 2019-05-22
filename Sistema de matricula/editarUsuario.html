@@ -1,5 +1,5 @@
 <?php
-include 'variablesDeSesion.php';
+include 'controller/variablesDeSesion.php';
 
 $ced = obtCed();
 ?>
@@ -30,7 +30,7 @@ $ced = obtCed();
     <link href="../build/css/custom.min.css" rel="stylesheet">
 </head>
 
-<body onload="fun()" class="nav-md">
+<body onload="" class="nav-md">
 <div id="navigation"></div>
 <div class="container body">
     <div class="main_container">
@@ -60,7 +60,7 @@ $ced = obtCed();
                                                 <input type="text" class="form-control" id="cedula" name="cedula"
                                                        value="<?php echo ced; ?>">
                                             </div>
-                                            <p><?php echo ced; ?></p>
+                                            
 
 
                                             <!--<div class="col-md-2 col-sm-1 col-xs-">-->
@@ -367,7 +367,8 @@ $ced = obtCed();
         $("#cedula").prop("readonly", false).prop('disabled', false);
         $(':input[type="submit"]').prop('disabled', true);
     }
-
+    
+ 
 
 </script>
 
